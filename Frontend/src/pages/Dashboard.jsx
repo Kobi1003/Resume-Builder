@@ -341,7 +341,7 @@ const Dashboard = () => {
 
               <button className="w-full py-2 bg-green-600 text-white rounded hover:bg-green-700 transition-colors">
                 {isLoading ?
-                  <LoaderCircleIcon className="animate-spin size-4 mx-auto" /> :
+                  <LoaderCircle className="animate-spin size-4 mx-auto" /> :
                   <p>Upload Resume</p>
                 }
               </button>
